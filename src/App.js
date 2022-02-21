@@ -1,8 +1,20 @@
 import React from "react";
-
+import Header from "./components/Header";
+import Menu from "./components/Menu";
+import "./app.css"
+import SlideImg from "./components/SlideImg";
 
 const App = () => {
-  return <h1>Hola Mundo</h1>;
+  return (
+    <body>
+      <div>
+        <Header/>
+        <Menu/>
+        <SlideImg/>
+        <br/>
+      </div>
+    </body>
+  )
 };
 
 export default App;
